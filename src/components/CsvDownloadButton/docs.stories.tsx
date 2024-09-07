@@ -7,9 +7,13 @@ export default {
 };
 
 export const Default = () => (
-  <CsvDownloadButton data={''}>Add something</CsvDownloadButton>
+  <CsvDownloadButton data={''} dateFromTo={'2024-05-01~2024-05-31'}>
+    Add something
+  </CsvDownloadButton>
 );
 
 export const WithCustomBreakpoints = () => (
-  <CsvDownloadButton data="">Add something</CsvDownloadButton>
+  <CsvDownloadButton data="" dateFromTo={'2024-05-01~2024-05-31'}>
+    Add something
+  </CsvDownloadButton>
 );
